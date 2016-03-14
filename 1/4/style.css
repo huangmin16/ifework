@@ -1,0 +1,35 @@
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.center-block{
+    position: absolute;
+    top: -100px;
+    left: -200px;
+    background-color: #ccc;
+    width: 400px;
+    height: 200px;
+}
+.up-radius{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    border-style: solid;
+    border-bottom-right-radius: 50px;
+    border-color: #fc0;
+    border-width: 0px;
+}
+.down-radius{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    border-style: solid;
+    border-top-left-radius: 50px;
+    border-color: #fc0;
+    border-width: 0px;
+}
