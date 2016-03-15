@@ -72,3 +72,53 @@ h2{
     width: 400px;
     height: 200px;
 }
+.img-summary{
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    width: 80px;
+    height: auto;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.img-summary img{
+    width: 80px;
+    height: 80px;
+    padding: 10px 0px;
+}
+.img-summary span{
+    padding: 10px 0px;
+}
+.article-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.article-table td{
+    width: auto;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+.article thead{
+    background-color: #000;
+    color: #fff;
+}
+.article thead td{
+    border-color: #fff !important;
+}
+.article-foot{
+    background-color: #ddd;
+}
+.flank{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #aaa;
+    margin: 20px 0px;
+}
+.flank-head{
+    border-left-style: solid;
+    border-left-color: #ddd;
+    border-left-width: 5px;
+    padding: 10px;
+}
