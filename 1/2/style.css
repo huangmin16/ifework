@@ -1,0 +1,58 @@
+.head{
+    background-color: #444;
+    overflow: hidden;
+}
+.logo{
+    position: relative;
+    float: left;
+    left: 10px;
+    margin: 10px;
+}
+.navigation{
+    position: relative;
+    right: 5px;
+    top: 30px;
+    float: right;
+}
+.navigation a{
+    position: relative;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.navigation a::before{
+    content: '·';
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    font-size: 50px;
+    color: #000;
+}
+.contents{
+    position: relative;
+    padding: 20px;
+    background: #eee;
+}
+.article{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #aaa;
+}
+h1{
+    margin: 15px 0px;
+}
+h2{
+    color: #999;
+    margin: 5px 0px;
+}
+.article-author{
+    margin-right: 10px;
+    color: #aaa;
+}
+.article-time{
+    margin-left: 10px;
+    color: #aaa;
+}
+.article-author-time{
+    margin: 5px 0px;
+}
