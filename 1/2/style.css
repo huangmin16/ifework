@@ -123,8 +123,38 @@ h2{
     padding: 10px;
 }
 .flank-form{
-    position: 
+    position: relative;
+    left: 30%;
 }
-.flank-form-unit{
-    
+.flank-form-label{
+    text-align: right;
+    vertical-align: top;
+}
+.flank-input-radio:checked{
+    background-color: #ff0000;
+}
+.flank-form-unit td{
+    padding: 5px;
+}
+.flank-form textarea{
+    width: 500px;
+    height: 100px;
+}
+.flank-button{
+    width: 100%;
+    height: 40px;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.foot{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
 }
