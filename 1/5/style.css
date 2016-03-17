@@ -1,0 +1,168 @@
+body{
+    background-color: #eee;
+}
+.head{
+    background-color: #444;
+    overflow: hidden;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    float: left;
+    left: 10px;
+    margin: 10px;
+}
+.navigation{
+    position: relative;
+    right: 5px;
+    top: 30px;
+    float: right;
+}
+.navigation a{
+    position: relative;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.navigation-unimportant{
+    color: #aaa !important;
+}
+.navigation a::before{
+    content: '·';
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    font-size: 50px;
+    color: #000;
+}
+.contents{
+    position: relative;
+    padding: 10px 20px;
+    background: #eee;
+    margin-right: 390px;
+}
+.article{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #aaa;
+    margin: 20px 0px;
+}
+h1{
+    margin: 15px 0px;
+}
+h2{
+    color: #999;
+    margin: 5px 0px;
+}
+.article-author{
+    margin-right: 10px;
+    color: #aaa;
+}
+.article-time{
+    margin-left: 10px;
+    color: #aaa;
+}
+.article-author-time{
+    margin: 5px 0px;
+}
+.article-summary{
+    overflow: visible;
+}
+.first-p{
+    text-indent: 2em;
+}
+.article-img{
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+.img-summary{
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    width: 80px;
+    height: auto;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    text-align: center;
+    display: inline-block;
+}
+.img-summary img{
+    width: 80px;
+    height: 80px;
+    padding: 10px 0px;
+}
+.img-summary span{
+    padding: 10px 0px;
+}
+.article-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.article-table td{
+    width: auto;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+.article thead{
+    background-color: #000;
+    color: #fff;
+}
+.article thead td{
+    border-color: #fff !important;
+}
+.article-foot{
+    background-color: #ddd;
+}
+.flank{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #aaa;
+    margin: 30px 0px;
+    float: right;
+    width: 350px;
+}
+.flank-head{
+    border-left-style: solid;
+    border-left-color: #ddd;
+    border-left-width: 5px;
+    padding: 10px;
+}
+.flank-form{
+    position: relative;
+}
+.flank-form-label{
+    text-align: right;
+    vertical-align: top;
+}
+.flank-input-radio:checked{
+    background-color: #ff0000;
+}
+.flank-form-unit td{
+    padding: 5px;
+    white-space: nowrap;
+}
+.flank-form textarea{
+    width: 250px;
+    height: 100px;
+}
+.flank-button{
+    width: 100%;
+    height: 40px;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.foot{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}

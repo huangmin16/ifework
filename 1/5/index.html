@@ -1,10 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>零基础HTML及CSS编码（二）</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>零基础HTML及CSS编码（一）</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-
+    <div class="head">
+        <div class="logo"><img src="./logo.png"></div>
+        <div class="navigation">
+            <a href="#">导航链接一</a>
+            <a href="#">导航链接二</a>
+            <a href="#">导航链接三</a>
+            <a class="navigation-unimportant" href="#">导航链接四</a>
+        </div>
+    </div>
+    <div class="flank">
+        <div class="flank-head">侧边栏</div>
+        <div class="flank-content">
+            <form class="flank-form">
+                <table>
+                    <tr class="flank-form-unit">
+                        <td class="flank-form-label"><label for="email">Email:</label></td>
+                        <td><input id="email" name="email" type="text" class="flank-input-text"></input></td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td colspan="2"><span class="flank-down-font">邮箱地址请按格式输入</span></td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td class="flank-form-label"><label for="password">密码:</label></td>
+                        <td><input class="flank-input-password" name="password" type="password" id="password"></input></td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td class="flank-form-label"><label for="password2">重复密码:</label></td>
+                        <td><input class="flank-input-password" type="password" name="password2" id="password2"></input></td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td colspan="2"><span class="flank-down-font">密码为6-16位数字或字母</span></td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td class="flank-form-label"><label for="sex">性别:</label></td>
+                        <td><input class="flank-input-radio" type="radio" name="sex" id="sex">男</input><input class="flank-input-radio" name="sex" type="radio" id="sex">女</input></td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td class="flank-form-label"><label for="habby">爱好:</label></td>
+                        <td>
+                            <input class="flank-input-check-box" name="habby_sport" type="checkbox">运动</input>
+                            <input class="flank-input-check-box" name="habby_letter" type="checkbox">文学</input>
+                            <input class="flank-input-check-box" name="habby_music" type="checkbox">音乐</input>
+                        </td>
+                    </tr>
+                    <tr class="flank-form-unit">
+                        <td class="flank-form-label"><label for="personal-summary">个人描述:</label></td>
+                        <td><textarea class="flank-textarea"></textarea></td>
+                    </tr>
+                </table>
+            </form>
+            <button class="flank-button" type="button">确认提交</button>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="article">
+            <h1>爱后余生，我们各自熠熠生辉</h1>
+            <h2>来源:美文网 </h2>
+            <p class="article-author-time"><span class="article-author">落花飘零 </span><span class="article-time">2016-03-02 10:15</span></p>
+            <div class="article-summary">
+                <p class="first-p">看过的书渐渐蒙上了尘埃，爱过的人慢慢变成了陌生人。山盟海誓的时候，我们互相照耀。如今爱后余生，我们各自熠熠生辉，莫被往事的尘埃迷了眼睛，失了信心。</p>
+                <p>暗恋的时候，我让自己置身于黑暗之中，然后把我所有的光芒都给了你。看着你在光芒中意气风发的样子，我与有荣焉，却忘记了你并知道我的存在。</p>
+                <p>表白的时候，我鼓起勇气走出黑暗，走到你面前，对你说我想站在你身边，和你一起站在闪耀的灯光之下。你说我们可以试一试，看看我们是否适合。</p>
+                <p>在一起的时候，我努力地让自己成为一个和你一样耀眼的人。渐渐地，我能自信地告诉自己终于能配上你了，不必像以前那样在黑暗中偷望你的光辉，可以光明正大地和你站在一起。</p> 
+                <img class="article-img" src="./1.jpg" alt="图片" />
+            </div>
+        </div>
+        <div class="article">
+            <h1>一个人在人海中孤独终老</h1>
+            <h2>来源:美文网 </h2>
+            <p class="article-author-time"><span class="article-author">那安</span><span class="article-time">2016-01-15 11:19</span></p>
+            <div class="article-summary">
+                <p class="first-p">即使身在热闹的人群之中，也会感受到一种来自孤独的寒冷。我始终是众人眼中的异类，只能一个人在人海中孤独终老，在这个尘世里独自浮沉。</p>
+                <p>我很在意别人对我的看法，因为我会猜测别人会如何看待我，并且以这种猜测作为一个选择的方向，这样的性格常常让我陷入一个可笑又悲哀的境地。</p>
+                <p>有一次我准备参加一个朋友的婚宴，犹豫了很久到底要在红包里放多少钱。因为快到月底了，我剩余的钱并不多，还要过一个多星期才到发工资的日子，但是我又怕放的钱少了朋友会不高兴，毕竟我们是不错的朋友。最后，我咬咬牙决定拿出生活费中的一大部分放进红包里，做好在发工资之前只能吃方便面的心理准备。到了婚宴的现场，我把红包给了朋友，本来笑脸迎人的朋友突然拉下了脸。我不知道朋友是怎么了，只是婚宴之后我们之间生疏了许多。</p>
+                <img class="article-img" src="./2.jpg" alt="图片" />
+                <ul>
+                    <li>回首往事，又是一场宿醉</li>
+                    <li>一个人在人海中孤独终老</li>
+                    <li>四季轮回，心无归期</li>
+                </ul>
+            </div>
+        </div>
+        <div class="article">
+            <h1>图片</h1>
+            <div class="article-summary">
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                <div class="img-summary">
+                    <span>美丽的花</span>
+                    <img src="./21.jpg" alt="图片" />
+                </div>
+                
+            </div>
+        </div>
+        <div class="article">
+            <h1>一个人在人海中孤独终老</h1>
+            <h2>来源:美文网 </h2>
+            <p class="article-author-time"><span class="article-author">那安</span><span class="article-time">2016-01-15 11:19</span></p>
+            <div class="article-summary">
+                <p>文章排名</p>
+                <ol>
+                    <li>回首往事，又是一场宿醉</li>
+                    <li>一个人在人海中孤独终老</li>
+                    <li>四季轮回，心无归期</li>
+                </ol>
+                <p>阅读表格</p>
+                <table class="article-table">
+                    <thead><tr><td>文章标题</td><td>时间</td><td>阅读数</td></tr></thead>
+                    <tbody>
+                        <tr><td>爱后余生，我们各自熠熠生辉</td><td>2016-03-02 10:15</td><td>1368</td></tr>
+                        <tr><td>回首往事，又是一场宿醉</td><td>2016-02-24 09:11</td><td>2532</td></tr>
+                        <tr><td>找不到一个联系你的理由</td><td>2016-02-23 16:56</td><td>988</td></tr>
+                        <tr class="article-foot"><td colspan="2">总计</td><td>10000</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        版权所有©
+    </div>
 </body>
 </html>
