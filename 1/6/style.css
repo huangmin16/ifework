@@ -208,3 +208,36 @@ body{
     opacity: 0.7;
     color: #cd4a48;
 }
+.content-article-first{
+    width: 415px;
+}
+.content-article-first-title-first-word{
+    font-size: 72px;
+    color: #f5e327;
+    font-family: "SimHei" ,"STHeiti";
+    font-weight: bold;
+    font-style: italic;
+}
+.content-article-first-title-other-word{
+    font-size: 42px;
+    color: #11456b;
+    font-family: "SimHei" ,"STHeiti";
+    font-weight: bold;
+    line-height: 16px;
+}
+.content-article-first-title-cn-word{
+    font-size: 33px;
+    color: #11456b;
+    font-family: "SimHei" ,"STHeiti";
+    font-weight: bold;
+}
+.content-article-first-hr{
+    width: 415px;
+    height: 2px;
+    background-color: #11456b;
+    color: #11456b;
+    border-color: #11456b;
+}
+.content-article-first-content-img{
+    
+}
