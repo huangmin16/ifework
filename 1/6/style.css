@@ -1,5 +1,17 @@
 body{
-    padding: 0 5%;
+    background-color: #4B4B4B;
+}
+.paper-center{
+    position: relative;
+    left: 50%;
+}
+.paper{
+    position: absolute;
+    left: -490px;
+    width: 892px;
+    height: 1386px;
+    padding: 0 44px;
+    background-color: #ffffff;
 }
 .head{
     position: relative;
@@ -31,4 +43,66 @@ body{
     font-size: 12px;
     font-family: "SimHei", "STHeiti";
 }
-.
+.content-img{
+    margin-top: 30px;
+    height: 301px;
+}
+.content-big-img{
+    position: relative;
+    display: inline-block;
+    width: 641px;
+    height: 301px;
+}
+.content-big-img-right{
+    position: absolute;
+    right: 0px;
+    width: 191px;
+    height: 301px;
+    background: transparent;
+    background-color: #FF0000;
+    opacity: 0.3;
+}
+.content-big-img-left{
+    position: absolute;
+    left: 0px;
+    width: 191px;
+    height: 301px;
+    background: transparent;
+    background-color: #66CC33;
+    opacity: 0.3;
+}
+.content-big-img-img{
+    width: 641px;
+    height: 301px;
+}
+.content-img-text{
+    display: inline-block;
+    margin-left: 43px;
+    width: 203px;
+    height: 301px;
+    border-top-color: #cc8091;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+.content-img-text-about{
+    font-size: 24px;
+    color: #000000;
+    font-family: "Microsoft YaHei","Apple LiGothic Medium";
+}
+.content-img-text-about p{
+    margin: 0 0;
+    line-height: 40px;
+    text-decoration: underline;
+}
+.content-img-text-about p:first-letter{
+    font-size: 36px;
+}
+.content-img-text-about-small{
+    font-size: 12px;
+    color: #676767;
+    font-family: "STKaiti" , "  KaiTi";
+    line-height: 10px;
+}
+.content-img-big-text{
+    
+}
